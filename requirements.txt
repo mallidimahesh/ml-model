@@ -6,6 +6,7 @@ pydantic>=2.0.0
 
 # Legacy App Compatibility
 streamlit>=1.30.0
+plotly>=5.18.0
 
 # Data Analysis & Mathematical Manipulation
 pandas>=2.0.0
