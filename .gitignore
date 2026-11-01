@@ -54,8 +54,9 @@ htmlcov/
 
 # Node.js / frontend
 node_modules/
-dist/
 dist-ssr/
+!frontend/dist/
+!frontend/dist/**
 
 # Caches
 .cache/

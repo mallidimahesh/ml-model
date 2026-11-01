@@ -8,8 +8,12 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
+# dist is included so Python backend can serve prebuilt frontend in cloud deployment
+!dist/
+!dist/**
+# dist is included so Python backend can serve prebuilt frontend in cloud deployment
+!dist/
+!dist/**-ssr
 *.local
 
 # Editor directories and files
