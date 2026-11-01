@@ -1,0 +1,25 @@
+# Core Web Application Frameworks
+fastapi>=0.110.0
+uvicorn>=0.28.0
+starlette>=0.36.0
+pydantic>=2.0.0
+
+# Legacy App Compatibility
+streamlit>=1.30.0
+
+# Data Analysis & Mathematical Manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning (Ridge Regression & TimeSeriesSplit ONLY)
+scikit-learn>=1.3.0
+
+# HTTP Requests (FRED & World Bank APIs)
+requests>=2.31.0
+httpx>=0.27.0
+
+# Environment Variable Management (.env)
+python-dotenv>=1.0.0
+
+# Unit and Integration Testing
+pytest>=8.0.0
